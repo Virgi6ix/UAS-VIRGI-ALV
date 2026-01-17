@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pendaftaran Event Kampus</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="overlay">
+    <div class="container">
+      <h1>Seminar Teknologi</h1>
+      <p class="info">Tanggal: 25 Januari 2026 | Lokasi: R.AB2</p>
+
+      <form id="formPendaftaran">
+        <input type="text" id="nama" placeholder="Nama Lengkap">
+        <input type="email" id="email" placeholder="Email">
+        <input type="text" id="hp" placeholder="Nomor HP">
+
+        <select id="kategori">
+          <option value="">Pilih Kategori</option>
+          <option value="Mahasiswa">Mahasiswa</option>
+          <option value="Umum">Umum</option>
+        </select>
+
+        <button type="submit">Daftar</button>
+      </form>
+
+      <p id="pesan"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
